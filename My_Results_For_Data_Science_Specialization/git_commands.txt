@@ -1,0 +1,19 @@
+**********GIT BASIC COMMANDS************
+git init
+git status
+git add *.* #add a/some file/s to the staging area of a branch
+git commit -m "Add some text here for the commitment"
+git log
+git remote add R_NAME https://github.com/igaitan1991/XXXX
+git push -u R_NAME B_NAME # pushes (an save -u args) the B_NAME branch to the R_NAME remote repository
+git pull R_NAME B_NAME
+git diff HEAD # difrences between actual status and most recen commit
+git diff --staged difrences on staged things
+git reset */*.* #unstage files
+git checkout *.* # undo, get rid of changes since the last commit
+git branch B_NAME #new branch created
+git branch #see branches
+git checkout B_NAME # switch to branch B_NAME
+git rm *.* #remove files from a branch
+git merge B_NAME # merges the actual branch with B_NAME branch
+git branch -d B_NAME # remove a branch
